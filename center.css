@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: aquamarine;
+    grid-template-rows: repeat(3,1fr) ;
+    grid-template-columns: repeat(2,1fr) ;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+.item{
+    display: block;
+
+    color: beige ;
+    background: rgb(81, 160, 134);
+
+    width: 1000px;
+    height: 500px;
+}
+
